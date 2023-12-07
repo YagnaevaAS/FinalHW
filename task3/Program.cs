@@ -16,20 +16,4 @@ int Ackerman(int n, int m)
     }
 }
 
-// int Ack2(int n, int m)
-//     {
-//         if(n == 0)
-//         {
-//             return m + 1;
-//         } 
-//         else if (m == 0)
-//         {
-//             return Ack2(n - 1, 1);
-//         } 
-//         else 
-//         {
-//             return Ack2(n - 1, Ack2(n, m - 1));
-//         }
-//     }
-
 Console.WriteLine(Ackerman(N, M));
